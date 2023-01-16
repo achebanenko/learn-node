@@ -33,9 +33,20 @@ package.json
 ```
 
 
+Install `now` globally and run via terminal
+
+```bash
+npm install now -g
+now -v
+now
+```
+
+
+
 **?????**
 Under scripts section in `package.json`  
 `"now": "now -e DB_USER=@db_user -e DB_PASS=@db_pass -e NODE_ENV=\"production\" -e PORT=80"`
+
 
 
 
