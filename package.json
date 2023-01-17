@@ -10,9 +10,9 @@
     "dotenv": "variables.env.now"
   },
   "scripts": {
-    "start": "node ./start.js",
+    "start": "node ./index.js",
     "build": "webpack",
-    "watch": "nodemon ./start.js --ignore public/",
+    "watch": "nodemon ./index.js --ignore public/",
     "dev": "concurrently \"npm run watch\" \"npm run assets\" --names \"💻,📦\" --prefix name",
     "assets": "webpack -w",
     "sample": "node ./data/load-sample-data.js",
